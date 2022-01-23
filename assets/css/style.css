@@ -53,10 +53,32 @@ span {
 }
 
 
-/* Hero image*/
+/* Hero image and cover text*/
 
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../css/hero-image.jpg') no-repeat center center;
+}
+
+#cover-text, #cover-text h2 {
+    color: white;
+}
+
+#cover-text {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+#cover-text h2 {
+    margin: 20px, 0px, 20px;
+    font-size: 50px;
+}
+
+#cover-text h3 {
+    font-size: 25px;
+    margin-bottom: 100px;
 }
