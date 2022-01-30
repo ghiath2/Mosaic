@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 * {
-    padding: 0;
+  
     margin: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
+    
     font-family: Dongle, sans-serif;
     font-weight: 300;
 }
@@ -166,60 +168,92 @@ hr {
 
 /* Gifts Section */
 
-
-.gifts {
-    background: #101010;
-    width: 100%;
-    padding: 100px 0px;
+img {
+    max-width: 100%;
+    vertical-align: middle;
 }
 
-.title h2 {
+.gifts-title h2{
     color: white;
     font-size: 75px;
     width: 1130px;
     margin: 30px auto;
     text-align: center;
-    letter-spacing: 4px;
 }
 
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
+.row {
+     display: flex;
+     flex-wrap: wrap;
 }
 
-.card {
-    height: 365px;
-    width: 335px;
-    padding: 20px 35px;
-    background: #191919;
-    border-radius: 20px;
-    margin: 15px;
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.flip-main {
+    min-height: 100vh;
+    background-color: #101010;
+    padding: 100px 0;
+}
+
+.flip-main .flip-card {
+    padding: 15px;
+    flex: 0 0 calc(33.33% - 30px);
+    margin: 0 15px 30px;
+    perspective: 1000px;
+}
+
+.flip-main .flip-card-inner {
+    box-shadow: 0 0 10px #f90046;
     position: relative;
-    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+
+}
+
+.flip-main .flip-card-front img {
+    width: 100%;
+
+}
+
+.flip-main .filp-card-back {
+    backface-visibility: hidden;
+}
+
+.flip-main .filp-card-back {
+    background-color: rosybrown;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    transform: rotateY(180deg);
+
 }
 
-h5 {
+.flip-main .filp-card-back h2 {
+    font-size: 24px;
     color: white;
-    font-size: 23px;
-    margin-bottom: 15px;
+    margin: 0 0 10px;
+
 }
 
-.card i {
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 25px 0px;
-    color: #f9004d;
-}
-
-.box-content {
-    color: white;
+.flip-main .filp-card-back h2 {
     font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
+    color: white;
+    margin: 0;
+    
+}
+
+.flip-main .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+
 }
 
 
