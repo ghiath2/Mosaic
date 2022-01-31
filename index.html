@@ -11,23 +11,23 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
+    <header id="home">
             <h1 id="logo">Mosaic <span>Gifts</h1>
         
         <nav id="menu">
             <ul>
                 
                 <li>
-                    <a href="#">Gifts</a>
+                    <a href="#"> Gallery </a>
                 </li>
                 <li>
-                    <a href="#">Gallery</a>
+                    <a href="#gifts" aria-label="go to gifts section"> Gifts </a>
                 </li>
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="#about" aria-label="go to about section">About Us</a>
                 </li>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#home" aria-label="go to the top of the page">Home</a>
                 </li>
             </ul>
         </nav>
@@ -53,12 +53,13 @@
                     quas ullam tenetur porro facilis quis dolorum labore culpa, cupiditate adipisci non maxime
                     deserunt, ipsa dolores ratione!
                   </p>
+                  <button type="button">Contact Us</button>
                 </div>
         </div>
     </section>
 
 
-
+    <section id="gifts">
         <div class="flip-main">
             <div class="gifts-title">
                 <h2>Gifts</h2>
@@ -115,10 +116,32 @@
             </div>
         </div>
   
+    </section>
 
+    <section class="form-section">
+        
+            
+            <h2>Contact us</h2>
+            
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first_name" required>
+            
+             <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="last_name" required>
+            
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" required>
+            
+            <input type="submit" value="Let's Run!">
+            
+            
+        </form>
+        
+    </section>
     
 
     <footer>
+        <p>Phon number : 07307 574445</p>
         <p> Follow us on social media</p>
         <div class="social">
             <a href="#"><i class="fab fa-facebook-square"></i></a>
