@@ -321,58 +321,58 @@ footer p {
 
 /* contact us */
 
-.form-section {
-    height: 600px;
+.contact-us h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.contact-us {
+    position: relative;
     width: 100%;
-    background: #191919;
+    height: 600px;  
+    background-color: #191919;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
-.signup-form {
-    margin: 150px 10% 0 0;
-    color:#fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width:400px;
-    position:absolute;
-    left:10%;
-    padding:30px;
+.contact-us form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
 }
 
-.signup-form h2 {
-    color:#fafafa;
-    margin-bottom:20px;
+.contact-us form input {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    margin: 10px 10px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
 }
 
-.text-input {
-    background: transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
-    
-    border:1px solid #fafafa;
-    border-radius:2px;
-    margin: 5px 0 20px 0;
+
+.contact-us form input:last-child {
+background-color: #f9004d;
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 13px 30px;
+border-radius: 30px;
+transition: .4s;
 }
 
-.join-button {
-    margin-top:20px;
-    border-radius:2px;
-    padding:15px 32px 15px 32px;
-    text-align:center;
-    font-size:100%;
-    background-color:#f16c6b;
-    color:#fafafa;
-    display:block;
-}
-.join-button:hover {
-    background-color:#fafafa;
-    color:#f16c6b;
-}
+.contact-us form input:last-child:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    }
 
-.text-input:hover {
-    border-color:#f16c6b;
-}
 
