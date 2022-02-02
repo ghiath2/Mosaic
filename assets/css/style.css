@@ -9,6 +9,10 @@
 body {  
     font-family: Dongle, sans-serif;
     font-weight: 300;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 /* headings and logo */
