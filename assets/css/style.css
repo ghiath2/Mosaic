@@ -246,7 +246,7 @@ img {
 }
 
 .flip-main .filp-card-back {
-    background-color: rosybrown;
+    background-color: #191919;
     position: absolute;
     left: 0;
     top: 0;
@@ -262,18 +262,21 @@ img {
 }
 
 .flip-main .filp-card-back h2 {
+    font-family: Quicksand, sans-serif;
     font-size: 1.5rem;
     color: white;
     margin: 0 0 10px;
 
 }
 
-.flip-main .filp-card-back h2 {
-    font-size: 1.5rem;
+.flip-main .filp-card-back p {
+    font-family: 'Titillium Web', sans-serif;
     color: white;
-    margin: 0;
-    
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 1.25rem;
 }
+
 
 .flip-main .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
