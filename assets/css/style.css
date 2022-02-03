@@ -200,7 +200,6 @@ img {
     font-family: Quicksand, sans-serif;
     color: white;
     font-size: 4.688rem;
-    width: 1130px;
     margin: 30px auto;
     text-align: center;
 }
@@ -333,8 +332,7 @@ footer p {
 #contact-us h2{
     font-family: Quicksand, sans-serif;
     color: white;
-    font-size: 4.688rem;
-    width: 1130px;
+    font-size: 4.688rem;  
     margin: 30px auto;
     text-align: center;
 }
@@ -418,15 +416,19 @@ transition: .4s;
         flex: 0 0 calc(50% - 30px);
     }
 
-    .gifts-title h2 {
-        width: 0;
-        text-align: left;
-    }
 }
 
 @media(max-width: 767px) {
     .flip-main .flip-card {
         flex: 0 0 calc(100% - 30px);
+    }
+
+    #contact-us h2 {
+        font-size: 2.688rem;
+    }
+
+    .gifts-title h2 {
+        font-size: 2.688rem;
     }
 }
 
