@@ -12,7 +12,6 @@ body {
     max-width: 2000px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 /* headings and logo */
@@ -26,8 +25,8 @@ body {
     color: black;
     letter-spacing: 4px;
     text-transform: uppercase;
-    
 }
+
 span {
     color: #f9004d;
 }
@@ -63,7 +62,6 @@ span {
     transition: .4s;
 }
 
-
 /* Hero image and cover text*/
 
 #hero-outer {
@@ -86,19 +84,14 @@ span {
 #cover-text {
     font-family: Quicksand, sans-serif; 
     letter-spacing: 4px;
-
     width: 600px;
     height: 210px;
     margin-left: 30px;
-   
     padding-left: 10px;
     padding-right: 10px;
-
     background-color: rgba(104, 103, 116, .5);
-
     bottom: 40%;
     border-radius: 20px 40px;
-
     position: absolute;
 }
 
@@ -187,8 +180,6 @@ hr {
     cursor: pointer;
 }
 
-
-
 /* Gifts Section */
 
 img {
@@ -232,12 +223,10 @@ img {
     position: relative;
     transform-style: preserve-3d;
     transition: all 1s ease;
-
 }
 
 .flip-main .flip-card-front img {
     width: 100%;
-
 }
 
 .flip-main .filp-card-back {
@@ -257,7 +246,6 @@ img {
     justify-content: center;
     text-align: center;
     transform: rotateY(180deg);
-
 }
 
 .flip-main .filp-card-back h3 {
@@ -265,7 +253,6 @@ img {
     font-size: 1.5rem;
     color: white;
     margin: 0 0 10px;
-
 }
 
 .flip-main .filp-card-back p {
@@ -276,12 +263,9 @@ img {
     font-size: 1.25rem;
 }
 
-
 .flip-main .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-
 }
-
 
 /* Footer section */
 
@@ -345,7 +329,6 @@ footer p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 #contact-us form {
@@ -364,7 +347,6 @@ footer p {
     outline: none;
     border-radius: 30px;
 }
-
 
 #contact-us form input:last-child {
 background-color: #f9004d;
@@ -400,15 +382,12 @@ transition: .4s;
     
     #menu li {
         padding: 30px 0px 30px;
-
     }
 
     #about-image {
         margin-right: 20px;
     }
-
  }
-
 
  /* for medium screen sizes from 950px wide and down */
  @media(max-width: 950px) {
@@ -422,11 +401,7 @@ transition: .4s;
 
     #menu li {
         padding: 30px 0px 30px;
-
     }
-
-    
-    
 
     #about-image {
        display: none;
@@ -435,7 +410,6 @@ transition: .4s;
     .flip-main .flip-card {
         flex: 0 0 calc(50% - 30px);
     }
-
 }
 
 /* for medium screen sizes from 767px wide and down */
@@ -452,19 +426,17 @@ transition: .4s;
         height: 250px;
         margin-left: 5px;
     }
+
     .flip-main .flip-card {
         flex: 0 0 calc(100% - 30px);
     }
-
-   
 
     .gifts-title h2 {
         font-size: 3.688rem;
     }
 
     #contact-us h2 {
-        font-size: 2.688rem;
-        
+        font-size: 2.688rem;        
     }
 
     #contact-us form textarea {
@@ -478,11 +450,9 @@ transition: .4s;
     #main {
         padding: 0 20px 0 10px
     }
-
-   
 } 
 
-
+/* for medium screen sizes from 533px wide and down */
 @media(max-width: 533px) {
     #menu li {
         clear: both;
