@@ -53,6 +53,33 @@ In addition, we give our clients the opportunity to participate by giving ideas 
      - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
      ![Navigation bar](/assets/documentation/footer.png)
+# Testing
+## Validator Testing
+- HTML
+  - No errors were returned when passing through the official
+
+- CSS
+  - No errors were returned when passing through the official
+
+# Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+
+# Credits
+## Content
+- The text for the Home page and gifts section was taken from a gift website
+- The icons in the footer were taken from [ Font Awesome](https://fontawesome.com/)
+- Instructions on how to make flip cards was taken from [Youtube tutorial ](https://fontawesome.com/)
+
+## Media
+- The images used for the gallery page were taken from [Pexels](https://www.pexels.com/)
+
+
+
 
  
 
