@@ -51,6 +51,31 @@ Mosaic Gifts is a site that hops to help people get unique gift ideas for their 
      - The footer includes phone number 
 
      ![Navigation bar](/assets/documentation/footer.png)
+
+# Ideal clients
+***The ideal client***
+- Partners
+- Frinds
+- Family
+- Everyone who is lookig for a soicial gift
+
+***Clints Visit this website for :***
+- Gifts
+- personalized gifts
+- To surprise Their loved ones
+
+# This project is the best way to help them because:
+- Our team provides unique gift ideas
+- This website is:
+
+  - Easy to navigate
+  - Gift spicialist
+
+# Client stories
+1. As a new visitor to the website, I want a gift that no one else has
+2. As a new visitor to the website, I want to buy gifts easily
+3. As a potential client, I want someone to make me the gift that I want
+ 
 # Testing
 
 ***Validator Testing***
