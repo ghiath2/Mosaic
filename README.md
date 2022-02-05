@@ -4,63 +4,57 @@
 
 Mosaic Gifts is a site that hops to help people get unique gift ideas for their loved ones for all occasions.
 
-In addition, we give our clients the opportunity to participate by giving ideas and making gifts themselves to make them more spicial.
 
 # Features
-   - ##Navigation Bar
+   - ## Navigation Bar
 
-     - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+     - The full responsive navigation bar includes links to  about us, gifts for everybody, and contact us
+
+     - This section will allow the user to easily navigate section page to section across all devices
 
      ![Navigation bar](/assets/documentation/navigation-bar.png)
  
    - ## The landing page image
 
-     - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+     - The landing includes a photograph with text
 
-     - This section introduces the user to Love Running with an eye catching animation to grab their attention
+     - This section introduces the user to Mosaic gifts and its purpose
 
      ![Navigation bar](/assets/documentation/homepage-image.png)
 
 - ## About Us Section
 
-     - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-
-     - This section introduces the user to Love Running with an eye catching animation to grab their attention
+    Explain who we are and what services we provide to clints.
 
      ![Navigation bar](/assets/documentation/about-readme.png)
 
  - ## Gifts For Everybody
 
-     - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-
-     - This section introduces the user to Love Running with an eye catching animation to grab their attention
+      In this section there are the target groups. 
 
      ![Navigation bar](/assets/documentation/gifts-readme.png)
 
 - ## Contact Us
 
-     - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-
-     - This section introduces the user to Love Running with an eye catching animation to grab their attention
+     This section will allow the user to contact us and order their gifts.
 
      ![Navigation bar](/assets/documentation/contactus-readme.png)
 
 - ## The Footer Section
 
-     - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+     - The footer section includes links to the relevant social media sites for Mosaic Gofts. The links will open to a new tab to allow easy navigation for the user
 
-     - This section introduces the user to Love Running with an eye catching animation to grab their attention
+     - The footer includes phone number 
 
      ![Navigation bar](/assets/documentation/footer.png)
 # Testing
 
 ## Validator Testing
 - HTML
-  - No errors were returned when passing through the official
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
 - CSS
-  - No errors were returned when passing through the official
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
 # Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -70,6 +64,13 @@ In addition, we give our clients the opportunity to participate by giving ideas 
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
+# Technologies
+1. HTML
+1. CSS
+
+# Features Left to Implement
+In the Future, I would like to organize parties, events and give people the chance make gifts themselves
+
 # Credits
 ## Content
 - The text for the Home page and gifts section was taken from a gift website
@@ -77,7 +78,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - Instructions on how to make flip cards was taken from [Youtube tutorial ](https://fontawesome.com/)
 
 ## Media
-- The images used for the gallery page were taken from [Pexels](https://www.pexels.com/)
+- The images used for the website were taken from [Pexels](https://www.pexels.com/)
 
 
 
