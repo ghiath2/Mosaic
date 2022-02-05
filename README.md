@@ -4,6 +4,8 @@
 
 Mosaic Gifts is a site that hops to help people get unique gift ideas for their loved ones for all occasions.
 
+![The website on different devices](/assets/documentation/responsive.png)
+
 
 # Features
    - ***Navigation Bar***
