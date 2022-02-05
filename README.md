@@ -1,6 +1,6 @@
 # MOSAIC GIFTS
 
-***Online personalised gifts shop***
+***Online gifts shop***
 
 Mosaic Gifts is a site that hops to help people get unique gift ideas for their loved ones for all occasions.
 

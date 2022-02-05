@@ -17,39 +17,23 @@ body {
 /* headings and logo */
 
 #logo {
+    margin-right: auto;
     font-family: Quicksand, sans-serif;
-    float: left;
     font-size: 3.125rem;
-    margin-left: 30px;
-    padding: 30px 0 30px;
     color: black;
     letter-spacing: 4px;
     text-transform: uppercase;
+    margin-left: 30px;
+}
+
+#home {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 span {
     color: #f9004d;
-}
-
-/* navigation links */
-
-#menu{
-    font-size: 0.950rem;
-    letter-spacing: 4px;
-}
-
-#menu, #logo {
-    line-height: 30px;
-}
-
-#menu li {
-    font-family: Quicksand, sans-serif;
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-    padding: 30px 20px 30px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 #menu a {
@@ -57,9 +41,21 @@ span {
     color: black;
 }
 
-#menu a:hover {
+#menu li {
+    font-family: Quicksand, sans-serif;
+    font-weight: 800;   
+    display: inline-block;
+    padding: 0px 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+#menu li a {
+    transition: all 0.3s ease 0s;
+}
+
+#menu li a:hover {
     color: #f90046;
-    transition: .4s;
 }
 
 /* Hero image and cover text*/
