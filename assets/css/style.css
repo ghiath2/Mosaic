@@ -381,7 +381,7 @@ transition: .4s;
     }
  }
 
- /* for medium screen sizes from 949px wide and down */
+ /* for medium screen sizes from 994px wide and down */
  @media(max-width: 994px) {
 
     #home {
