@@ -44,7 +44,7 @@ Mosaic Gifts is a site that hops to help people get unique gift ideas for their 
 
 - ***Footer***
 
-     - The footer section includes links to the relevant social media sites for Mosaic Gofts. The links will open to a new tab to allow easy navigation for the user
+     - The footer section includes links to the relevant social media sites for Mosaic Gifts. The links will open to a new tab to allow easy navigation for the user
 
      - The footer includes phone number 
 
@@ -64,7 +64,7 @@ Mosaic Gifts is a site that hops to help people get unique gift ideas for their 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - [](https://ghiath2.github.io/Mosaic-Gifts/)
+The live link can be found here  [MOSAIC GIFTS](https://ghiath2.github.io/Mosaic-Gifts/)
 
 # Technologies
 1. HTML
