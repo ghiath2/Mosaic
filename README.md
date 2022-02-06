@@ -86,12 +86,8 @@ Mosaic Gifts is a site that hops to help people get unique gift ideas for their 
 
 - CSS
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
-  
-  ![CSS Test](/assets/documentation/css-test.png)
 
-  - Gitpod.io - for writing the code. Using the command line for committing and pushing to Git Hub
-  - GitHub - Used to host repository
-  - GIT - for version control of the project.
+  ![CSS Test](/assets/documentation/css-test.png)
 
 ***Performance Testing***
   - Tested on the Developer Tools Lighthouse
@@ -107,8 +103,11 @@ Mosaic Gifts is a site that hops to help people get unique gift ideas for their 
 The live link can be found here  [MOSAIC GIFTS](https://ghiath2.github.io/Mosaic-Gifts/)
 
 # Technologies
-1. HTML
-1. CSS
+1. HTML- Mark-up language using semantic structure.
+2. CCS - Cascading style sheet used to style.
+3. Gitpod.io - for writing the code. Using the command line for committing and pushing to Git Hub
+4. GitHub - Used to host repository
+5. GIT - for version control of the project.
 
 # Features Left to Implement
 In the Future, I would like to organize parties, events and give people the chance make gifts themselves
