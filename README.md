@@ -82,8 +82,21 @@ Mosaic Gifts is a site that hops to help people get unique gift ideas for their 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
+  ![HTML test](/assets/documentation/html-test.png)
+
 - CSS
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+  
+  ![CSS Test](/assets/documentation/css-test.png)
+
+  - Gitpod.io - for writing the code. Using the command line for committing and pushing to Git Hub
+  - GitHub - Used to host repository
+  - GIT - for version control of the project.
+
+***Performance Testing***
+  - Tested on the Developer Tools Lighthouse
+    ![Performancee](/assets/documentation/performance.png)
+
 
 # Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
