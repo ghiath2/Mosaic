@@ -57,7 +57,7 @@ Mosaic Gifts is a site that hops to help people get unique gift ideas for their 
 - Partners
 - Frinds
 - Family
-- Everyone who is looking for a soicial gift
+- Everyone who is looking for a spicial gift
 
 ***Clints Visit this website for :***
 - Gifts
