@@ -93,6 +93,12 @@ Mosaic Gifts is a site that hops to help people get unique gift ideas for their 
   - Tested on the Developer Tools Lighthouse
     ![Performancee](/assets/documentation/performance.png)
 
+# Bugs
+
+***Solved Bugs***
+  - When I deployed my project to GitHub there was a white gab alonge the right side of the page
+  - I fixed that by reducing the width in the footer which was too much. 
+
 
 # Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
